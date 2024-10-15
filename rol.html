@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rol - Matemática</title>
+    <link rel="stylesheet" href="rol.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="topo">
+        <h1 class="titulo">Ordenador de tabelas (ROL)</h1>
+    </header>
+    <main class="corpo">
+        <div class="form">
+            <div class="input-form">
+                <label for="insere-num">Insira um valor</label>
+                <input type="text" id="insere-num" class="num">
+                <button class="add-num">Adicionar</button>
+                <h3>Números adicionados:</h3>
+                <div class="numeros-add"></div>
+                <div class="submit">
+                    <button class="btn-submit">Gerar ROL</button>
+                </div>
+            </div>
+            <div class="output-form">
+                <table class="tabela-rol"></table>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape"></footer>
+    <script src="rol.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+/* Geral */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Space Grotesk', serif;
+}
+
+.topo {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(0, 0, 100);
+    display: flex;
+}
+
+.topo .titulo {
+    margin: 0 auto;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.rodape {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(0, 0, 100);
+    display: flex;
+    justify-content: end;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(194, 194, 194);
+    height: 80vh;
+}
+
+.titulo .titulo-txt {
+    color: #000;
+}
+
+.corpo .form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.corpo .input-form {
+    height: 60vh;
+    width: 30vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-right: 1px solid rgb(121, 121, 121);
+}
+
+.corpo .input-form label {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.corpo .input-form .submit {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: auto;
+    width: 18vw;
+}
+
+.corpo .input-form .submit .btn-submit {
+    width: 100%;
+    height: 5vh;
+    background-color: #fff;
+    border: 1px solid rgb(0, 0, 100);
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.corpo .input-form .submit .btn-submit:hover {
+    border-style: none;
+    background-color: rgb(0, 0, 100);
+    color: #fff;
+}
+
+.input-form .add-num {
+    height: 4.5vh;
+    border-style: none;
+    background-color: rgb(0, 0, 100);
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* Estilo da tabela ROL */
+.output-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.tabela-rol {
+    width: 100%;
+    height: 50%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tabela-rol table {
+    width: 100%;
+}
+
+.tabela-rol td {
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 100);
+    font-size: 1.2rem;
+}
